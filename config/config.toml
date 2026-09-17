@@ -4,3 +4,6 @@ builtin = "history-watch"
 [dotfiles]
 "~/.bootstrap.dummy" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
+
+[tools]
+gh = "latest"
