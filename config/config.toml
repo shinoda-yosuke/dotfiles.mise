@@ -1,6 +1,9 @@
 [bootstrap.services.mise-history]
 builtin = "history-watch"
 
+[bootstrap.packages]
+"brew-cask:zed" = "latest"
+
 [dotfiles]
 "~/.bootstrap.dummy" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
