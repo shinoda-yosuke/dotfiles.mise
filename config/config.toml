@@ -2,11 +2,11 @@
 zprofile = "shims"
 zshrc = "activate"
 
-[bootstrap.services.mise-history]
-builtin = "history-watch"
-
 [bootstrap.packages]
 "brew-cask:zed" = "latest"
+
+[bootstrap.services.mise-history]
+builtin = "history-watch"
 
 [dotfiles]
 "~/.bootstrap.dummy" = { mode = "track" }
