@@ -12,5 +12,10 @@ builtin = "history-watch"
 "~/.bootstrap.dummy" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 
+[tasks.bootstrap]
+run = [
+  "curl -fsSL https://claude.ai/install.sh | bash",
+]
+
 [tools]
 gh = "latest"
