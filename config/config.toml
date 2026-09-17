@@ -13,4 +13,5 @@ builtin = "history-watch"
 "~/.config/mise/config.toml" = { mode = "track" }
 
 [tools]
+claude = "latest"
 gh = "latest"
