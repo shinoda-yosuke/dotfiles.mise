@@ -1,6 +1,6 @@
 [bootstrap.mise_shell_activate]
-zprofile = "shims"
 zshrc = "activate"
+zprofile = "shims"
 
 [bootstrap.packages]
 "brew-cask:zed" = "latest"
