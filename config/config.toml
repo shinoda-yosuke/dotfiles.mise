@@ -20,3 +20,4 @@ run = [
 [tools]
 gh = "latest"
 ghq = "latest"
+starship = "latest"
